@@ -39,12 +39,12 @@ public class Utils {
     public final static String TAG = "SEPA.digital";
 
 
-    public static final String BASEURL = "https://sepa.digital/pan/";
+    public static final String BASEURL = "https://sepa.digital/card/";
     private static final String HASHPREFIX = "card.sepa.digital/";
 
     /**
-     * --> öffne browser mit URL:
-     * https://sepa.digital/pan/<hash-wert>
+     * --> open browser URL:
+     * https://sepa.digital/card/<hash-wert>
      *
      * <hash-wert> --> "card.sepa.digital/" + <cardhash>
      * <cardhash> --> sha256('4242******4242') [maskierte pan]
